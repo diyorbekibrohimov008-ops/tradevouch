@@ -6,3 +6,12 @@ dist
 
 .vercel
 .env*
+
+# Secrets, environment variables, and deploy state
+.env.*
+*.env
+!.env.example
+.netlify
+*.pem
+*.key
+.data/
